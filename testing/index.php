@@ -11,7 +11,7 @@ if(!empty($_POST['submit']) && $_POST['submit'] == "Submit") {
 		$list .= "</ul>";
 	}
 
-	$result = "<p>".$_POST['name']."</p><p>".$_POST['email']."</p><p>".$_POST['major']."</p>".$list."<p>".$_POST['comments']."</p>";
+	$result = "<p>Name:<br>".$_POST['name']."</p><p>Email:<br>".$_POST['email']."</p><p>Major:<br>".$_POST['major']."</p><p>Visited:</p>".$list."<p>Comments:<br>".$_POST['comments']."</p>";
 
 }
 
