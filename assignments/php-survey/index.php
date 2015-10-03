@@ -53,5 +53,8 @@ if(!empty($_POST['submit']) && $_POST['submit'] == 'Submit') {
 	// Set session variable so that when they return they won't vote again
 	$_SESSION['form-submitted'] = 'yes';
 }
+elseif(!empty($_POST['submit']) && $_POST['submit'] == 'View Results') {
+	$view_results = 664534;
+}
 
 include "view.php";

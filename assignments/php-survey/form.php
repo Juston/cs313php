@@ -89,3 +89,7 @@
 
 	<input name="submit" type="submit" value="Submit">
 </form>
+
+<form action="." method="post">
+	<input name="submit" type="submit" value="View Results">
+</form>

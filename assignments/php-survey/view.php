@@ -14,7 +14,7 @@
 		<hr>
 		<?php 
 
-			if(!empty($_SESSION['form-submitted']) && $_SESSION['form-submitted'] == 'yes') {
+			if((!empty($_SESSION['form-submitted']) && $_SESSION['form-submitted'] == 'yes') || (!empty($view_results) && $view_results == 664534)) {
 				include "results.php";
 			}
 			else {
